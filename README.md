@@ -15,4 +15,17 @@ Marketing Campaign is an important topic in every company because it can help co
 6. Dummy & One Hot Encoding 
 7. Balance Training Dataset (oversampling)
 8. Feature Scaling
-## 
+## Data Modeling
+1. Logistic Regression
+2. Tuned KNN
+3. Tuned Decision Tree
+4. Tuned Random Forest (Bagging)
+5. Tuned Gradient Boosting (Boosting)
+## Classification Model Evaluation
+   - Classification Report (accuracy, precision, recall, f1-score)
+   - ROC Curve
+   - Features Importance
+## Conclusion
+Overall, I found that tree-based models performed better. Moreover, I found that even after oversampling on the minority class in the training dataset, the TPR (recall of '1') is still not as high as the TNR (recall of '0'). Thus, in the future, to improve the TPR of the models, we can try the following things: 
+1. Deal with remaining outliers: Perhaps I can rescale the data or separate outliers into another subset to build another model for those outliers.
+2. Balanced training dataset using different methods: Instead of oversampling the minority class, perhaps I can also try to use both oversampling and undersampling, or ADASYN (Adaptive Synthetic) algorithm to create a balanced training dataset.
