@@ -1,1 +1,1 @@
-# Predict-Bank-Marketing-Campaign
+# Predicting Bank Marketing Campaign
