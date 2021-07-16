@@ -26,6 +26,6 @@ Marketing Campaign is an important topic in every company because it can help co
    - ROC Curve
    - Features Importance
 ## Conclusion
-Overall, I found that tree-based models performed better. Moreover, I found that even after oversampling on the minority class in the training dataset, the TPR is still not as high as the TNR. Thus, in the future, to improve the TPR of the models, we can try the following things: 
+Overall, I found that tree-based models performed better. Moreover, I found that even after oversampling on the minority class in the training dataset, the TPR is still not as high as the TNR. Thus, in the future, to improve the TPR of the models, I can try the following things: 
 1. Deal with remaining outliers: Perhaps I can rescale the data or separate outliers into another subset to build another model for those outliers.
 2. Balanced training dataset using different methods: Instead of oversampling the minority class, perhaps I can also try to use both oversampling and undersampling, or ADASYN (Adaptive Synthetic) algorithm to create a balanced training dataset.
