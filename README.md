@@ -20,11 +20,11 @@ Marketing Campaign is an important topic in every company because it can help co
    - Feature scaling
      - Since KNN is a distance-based algorithm, I used StandardScaler function to rescale X
 ## Data Modeling
-   - Logistic regression
-   - K-nearest neighbors
-   - Decision tree
-   - Random forest (bagging)
-   - Gradient boosting (boosting)
+1. Logistic regression
+2. K-nearest neighbors
+3. Decision tree
+4. Random forest (bagging)
+5. Gradient boosting (boosting)
 
 Also, to tune models, I used GridSearchCV function to perform cross-validation and find optimal hyperparameters.
 ## Classification Model Evaluation
