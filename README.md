@@ -16,7 +16,7 @@ Marketing Campaign is an important topic in every company because it can help co
    - For logistic regression, I used dummy variables to avoid the dummy variable trap
    - For models other than logistic regression, I used one-hot encoding
 7. Balance training dataset (SMOTE function to oversample a minority class)
-8. Feature scaling
+8. Feature scaling (since KNN is a distance-based algorithm, I used StandardScaler function to rescale X)
 ## Data Modeling
 1. Logistic regression
 2. Tuned KNN
