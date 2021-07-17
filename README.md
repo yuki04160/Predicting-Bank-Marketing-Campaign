@@ -15,7 +15,7 @@ Marketing Campaign is an important topic in every company because it can help co
 6. Dummy & One-hot encoding
    - For logistic regression, I used dummy variables to avoid the dummy variable trap
    - For models other than logistic regression, I used one-hot encoding
-7. Balance training dataset: SMOTE function to oversample a minority class
+7. Balance training dataset (SMOTE function to oversample a minority class)
 8. Feature scaling
 ## Data Modeling
 1. Logistic regression
