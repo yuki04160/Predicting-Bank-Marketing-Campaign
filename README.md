@@ -11,7 +11,7 @@ Marketing Campaign is an important topic in every company because it can help co
 2. Missing value treatment
 3. Delete features
 4. Convert data type
-5. Split training (0.7) and test (0.3)
+5. Split into training (0.7) and test (0.3)
 6. Dummy & One-hot encoding
    - For logistic regression, I used dummy variables to avoid the dummy variable trap
    - For models other than logistic regression, I used one-hot encoding
