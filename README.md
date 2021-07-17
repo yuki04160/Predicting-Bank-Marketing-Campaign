@@ -26,7 +26,7 @@ Marketing Campaign is an important topic in every company because it can help co
 4. Random forest (bagging)
 5. Gradient boosting (boosting)
 
-Also, I used GridSearchCV function to perform cross-validation and find optimal hyperparameters.
+Also, to tune models, I used GridSearchCV function to perform cross-validation and find optimal hyperparameters.
 ## Classification Model Evaluation
    - Classification report (accuracy, precision, recall, f1-score)
    - ROC curve
