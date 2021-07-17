@@ -21,7 +21,7 @@ Marketing Campaign is an important topic in every company because it can help co
    - Since KNN is a distance-based algorithm, I used StandardScaler function to rescale X
 ## Data Modeling
 1. Logistic regression
-2. KNN
+2. K-nearest neighbors
 3. Decision tree
 4. Random forest (bagging)
 5. Gradient boosting (boosting)
