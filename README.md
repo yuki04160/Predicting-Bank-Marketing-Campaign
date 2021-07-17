@@ -21,10 +21,11 @@ Marketing Campaign is an important topic in every company because it can help co
    - Since KNN is a distance-based algorithm, I used StandardScaler function to rescale X
 ## Data Modeling
 1. Logistic regression
-2. Tuned KNN
-3. Tuned decision tree
-4. Tuned random forest (bagging)
-5. Tuned gradient boosting (boosting)
+2. KNN
+3. Decision tree
+4. Random forest (bagging)
+5. Gradient boosting (boosting)
+Also, I used GridSearchCV function to perform cross-validation and find optimal hyperparameters.
 ## Classification Model Evaluation
    - Classification report (accuracy, precision, recall, f1-score)
    - ROC curve
