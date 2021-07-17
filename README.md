@@ -33,5 +33,5 @@ Also, to tune models, I used GridSearchCV function to perform cross-validation a
    - Features importance
 ## Conclusion
 Overall, I found that tree-based models performed better. Moreover, I found that even after oversampling on the minority class in the training dataset, the TPR is still not as high as the TNR. Thus, in the future, to improve the TPR of the models, I can try the following things: 
-1. Deal with remaining outliers: since there are still some outliers that haven't been treated yet, perhaps I can rescale the data or separate those outliers into another subset to build another model.
+1. Deal with the remaining outliers: since there are still some outliers that haven't been treated yet, perhaps I can rescale the data or separate those outliers into another subset to build another model.
 2. Balanced training dataset using different methods: instead of oversampling the minority class, perhaps I can also try to use both oversampling and undersampling, or ADASYN (Adaptive Synthetic) algorithm to create a balanced training dataset.
