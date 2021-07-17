@@ -24,7 +24,7 @@ Marketing Campaign is an important topic in every company because it can help co
 2. K-nearest neighbors
 3. Decision tree
 4. Random forest (bagging)
-5. Gradient boosting (boosting)
+5. Gradient boosting (boosting)</br>
 Also, I used GridSearchCV function to perform cross-validation and find optimal hyperparameters.
 ## Classification Model Evaluation
    - Classification report (accuracy, precision, recall, f1-score)
