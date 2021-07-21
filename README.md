@@ -41,6 +41,6 @@ Model|Accuracy|F1 score|Recall (TPR)|TNR|Precision|AUROC
 **Random Forest**|0.89|0.41|0.35|0.96|0.49|0.65
 **Gradient Boosting**|0.9|0.39|0.29|0.97|0.56|0.63
 
-Overall, I found that tree-based models performed better. Moreover, I found that even after oversampling on the minority class in the training dataset, the TPR is still not as high as the TNR. Thus, in the future, to improve the TPR of the models, I can try the following things: 
+Overall, I found that tree-based models performed better and that even after oversampling on the minority class in the training dataset, the TPR is still not as high as the TNR. Thus, in the future, to improve the TPR of the models, I can try the following things: 
 1. Deal with the remaining outliers: since there are still some outliers that haven't been treated yet, perhaps I can rescale the data or separate those outliers into another subset to build another model.
 2. Balanced training dataset using different methods: instead of oversampling the minority class, perhaps I can also try to use both oversampling and undersampling, or ADASYN (Adaptive Synthetic) algorithm to create a balanced training dataset.
