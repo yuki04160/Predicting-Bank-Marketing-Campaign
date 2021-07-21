@@ -1,7 +1,7 @@
 # Predicting Bank Marketing Campaign
 To predict the marketing campaign outcome of a Portuguese banking institution, I built a Logistic Regression, KNN, Decision Tree, Random Forest, and Gradient Boosting in Python using UCI Machine Learning repository dataset - [Bank Marketing Data Set](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing).
 ## Project Background
-Marketing Campaign is an important topic in every company because it can help company increase the number of clients. Since there are a great number of banks available throughout, a bank has to start campaigns to attract customers to subscribe its term deposit. 
+Marketing Campaign is an important topic in every company because it can help companies increase the number of clients. Since there are a great number of banks available throughout, a bank has to start campaigns to attract customers to subscribe its term deposit. 
 ## Exploratory Data Analysis
    - Variable identification
    - Univariate analysis
