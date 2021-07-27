@@ -19,7 +19,7 @@ Marketing Campaign is an important topic in every company because it can help co
      - I used SMOTE function to oversample a minority class.
    - Feature scaling
      - Since KNN is a distance-based algorithm, I used StandardScaler function to rescale X.
-## Data Modeling
+## Modeling
 1. Logistic regression
 2. K-nearest neighbors
 3. Decision tree
